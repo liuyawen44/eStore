@@ -12,5 +12,6 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
 
     <!-- 加载配置文件 -->
+    <context:property-placeholder location="classpath:application.properties"/>
 
 </beans>
